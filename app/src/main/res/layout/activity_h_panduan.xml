@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgPrimary"
+    tools:context=".h_panduan">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:background="@drawable/bg_gradien_primary_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <LinearLayout
+        android:id="@+id/textya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_back"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/mlight"
+            android:layout_height="wrap_content"
+            android:text="PANDUAN"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/textkategoridetail"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/mmedium"
+            android:layout_height="wrap_content"
+            android:text="PENGGUNA"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/pagerpanduan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textya"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PTA APP</string>
+    <string name="Login">LOGIN</string>
+    <string name="Register">REGISTER</string>
+    <string name="Email_label">Email</string>
+    <string name="Password_label">Password</string>
+    <string name="Nama_label">Nama</string>
+    <string name="Alamat_label">Alamat</string>
+    <string name="username">Username</string>
+
+
+
+        <string-array name="bulan_mulai">
+            <item>Januari</item>
+            <item>Februari</item>
+            <item>Maret</item>
+            <item>April</item>
+            <item>Mei</item>
+            <item>Juni</item>
+            <item>Juli</item>
+            <item>Agustus</item>
+            <item>September</item>
+            <item>Oktober</item>
+            <item>November</item>
+            <item>Desember</item>
+        </string-array>
+
+
+
+</resources>

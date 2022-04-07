@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coverteam.pta">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PTA APP"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".l_agenda"/>
+        <activity android:name=".k_list_valid" />
+        <activity android:name=".j_validasi" />
+        <activity android:name=".i_list_riwayat_cuti" />
+        <activity android:name=".h_panduan" />
+        <activity android:name=".g_pengajuan_terkirim" />
+        <activity android:name=".f_profil" />
+        <activity android:name=".e_FormCuti" />
+        <activity android:name=".d_menuUtama" />
+        <activity android:name=".c_login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".b_started" />
+        <activity android:name=".a_splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

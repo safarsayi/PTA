@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "865737523578",
+    "firebase_url": "https://pta-app2.firebaseio.com",
+    "project_id": "pta-app2",
+    "storage_bucket": "pta-app2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865737523578:android:35f6460a32b3c8dc16d6c3",
+        "android_client_info": {
+          "package_name": "com.coverteam.pta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865737523578-5qd6hgbta69n3npesnkmko38uam05u22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDihTx9p1hL8K-CIb-ljqtUGHBEREm_b7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865737523578-5qd6hgbta69n3npesnkmko38uam05u22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
